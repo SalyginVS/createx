@@ -4,7 +4,11 @@
 @import "fonts";
 @import "settings";
 
-// подключения компонентов страницы
+// подключения компонентов страницы (большие компоненты)
 @import "./components/header";
 
 
+
+// подключения компонентов страницы (мини компоненты)
+@import "./components/nav";
+@import "./components/header-contacts";
