@@ -1,6 +1,6 @@
 .hero {
   padding-top: 220px;
-  padding-bottom: 345px;
+  padding-bottom: 354px;
   background-color: var(--color-gray);
   background-image: url("../img/hero-bg.jpg");
   background-position: center;
@@ -12,7 +12,7 @@
   }
 
   &__btns {
-    .btn { 
+    .btn {
       &:not(:last-child) {
         margin-right: 20px;
       }
