@@ -1,16 +1,4 @@
-.header {
-  padding-top: 23px;
-  padding-bottom: 21px;
-
-  &__container {
-    @include flex-all-sb;
-  }
-
-  &__nav {
-    margin-left: -112px;
-  }
-
-  &--main {
-    background-color: var(--color-light);
-  }
+//
+body {
+  background-color: #ff0;
 }
