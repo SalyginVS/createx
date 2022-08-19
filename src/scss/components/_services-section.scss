@@ -100,6 +100,24 @@
     transform: color 0.3s ease-in-out;
   }
 
+  &:hover {
+    &::before {
+      opacity: 1;
+    }
+
+    &::after {
+      opacity: 1;
+    }
+
+    .services-item__icon {
+      fill: var(--color-light);
+    }
+
+    .services-item__title {
+      color: var(--color-light);
+    }
+  }
+
   &--construct {
     &::before {
       background-image: url("../img/services-1.jpg");
@@ -121,24 +139,6 @@
   &--repairs {
     &::before {
       background-image: url("../img/services-1.jpg");
-    }
-  }
-
-  &:hover {
-    &::before {
-      opacity: 1;
-    }
-
-    &::after {
-      opacity: 1;
-    }
-
-    .services-item__icon {
-      fill: var(--color-light);
-    }
-
-    .services-item__title {
-      color: var(--color-light);
     }
   }
 }
