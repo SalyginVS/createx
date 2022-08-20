@@ -1,4 +1,6 @@
 .slider-nav {
+  position: relative;
+  z-index: 5;
   @include flex-v-center;
 
   &__btn {
@@ -15,7 +17,7 @@
       width: 24px;
       height: 24px;
       color: inherit;
-      fill: currentColor;
+      fill: currentcolor;
       object-fit: cover;
     }
 
